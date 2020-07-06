@@ -14,5 +14,11 @@ jobs:
     - uses: actions/setup-node@v1
       with:
         node-version: 14.x
-    - run: npm ci
-    - run: npm run lint
+    - name: install pnpm
+      run: |
+        npm install -g pnpm@5.x
+        pnpm --version
+    - name: pnpm install
+      run: pnpm recursive install
+    - name: lint
+      run: pnpm run lint
