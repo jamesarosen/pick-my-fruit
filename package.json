@@ -4,7 +4,7 @@
   "description": "The developer workspace for Pick My Fruit",
   "main": "index.js",
   "scripts": {
-    "lint": "npx eslint .",
+    "lint": "eslint .",
     "test": "true"
   },
   "repository": {
