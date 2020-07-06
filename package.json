@@ -1,0 +1,25 @@
+{
+  "name": "@pickmyfruit/workspace",
+  "version": "1.0.0",
+  "description": "The developer workspace for Pick My Fruit",
+  "main": "index.js",
+  "scripts": {
+    "lint": "npx eslint .",
+    "test": "true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamesarosen/pick-my-fruit.git"
+  },
+  "author": "James A Rosen",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/jamesarosen/pick-my-fruit/issues"
+  },
+  "homepage": "https://github.com/jamesarosen/pick-my-fruit#readme",
+  "devDependencies": {
+    "eslint": "^7.4.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "2.0.5"
+  }
+}
