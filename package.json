@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
-    "test": "true"
+    "preinstall": "npx only-allow pnpm"
   },
   "repository": {
     "type": "git",
@@ -17,9 +17,14 @@
     "url": "https://github.com/jamesarosen/pick-my-fruit/issues"
   },
   "homepage": "https://github.com/jamesarosen/pick-my-fruit#readme",
+  "engine": {
+    "node": ">=14",
+    "pnpm": ">=5"
+  },
   "devDependencies": {
     "eslint": "^7.4.0",
     "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.20.3",
     "prettier": "2.0.5"
   }
 }

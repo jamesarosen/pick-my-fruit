@@ -3,12 +3,12 @@ module.exports = {
     browser: true,
     es2020: true,
   },
-  extends: ['eslint:recommended'],
+  extends: ['eslint:recommended', 'plugin:react/recommended'],
   parserOptions: {
     ecmaVersion: 11,
     sourceType: 'module',
   },
-  plugins: ['prettier'],
+  plugins: ['prettier', 'react'],
   rules: {
     'prettier/prettier': 'error',
   },
